@@ -58,7 +58,7 @@ const Slider = (props) => {
     }
 
     useEffect(() => {
-        document.title = `Slide: ${slide}`
+        document.title = `Slide: ${slide}` 
 
         window.addEventListener('click', logging);
 
@@ -107,7 +107,7 @@ function App() {
     return (
         <>
             <button onClick={() => setShow(false)}>Click</button>
-            {show ? <Slider /> : null}
+            {show ? <Slider /> : null}  
         </>
     );
 }
